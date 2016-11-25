@@ -5,8 +5,7 @@ else
 fi
 echo "$TAG"
 
-cd ..
-
 #docker
 docker build -t node-bundle-app .
 docker run -dP node-bundle-app
+docker ps
