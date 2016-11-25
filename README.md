@@ -28,7 +28,9 @@ npm run build
 npm run deploy
 ```
 
-### docker build & run（运行后可以访问）
+### docker build & run（确保本地已运行 docker）
 ```sh
 npm run docker
 ```
+
+运行后查看 PORTS 列，复制地址访问，例如：0.0.0.0:32784
