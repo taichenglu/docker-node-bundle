@@ -1,5 +1,7 @@
 # nodejs 后端项目文件打包
 
+（koa2 的打包可以看[这里](https://github.com/taichenglu/koa-bundle)）
+
 ### 应用场景
 使用 webpack，像打包前端代码一样打包后端代码，以便在创建 docker 镜像时过滤 node_modules，使镜像变小，加快 push 速度。
 
